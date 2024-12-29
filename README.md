@@ -131,6 +131,11 @@ This project uses the following tools and libraries:
 
 ---
 
+License
+This project is licensed under the MIT License.
+
+---
+
 ## Acknowledgements
 - [Remix](https://remix.ethereum.org/) for writing and deploying the smart contract.
 - [Ganache](https://trufflesuite.com/ganache/) for local blockchain development.
