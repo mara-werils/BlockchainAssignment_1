@@ -6,6 +6,15 @@
 2. Display the current balance of the contract using the `getBalance` function.
 3. Allow the contract owner to withdraw all ETH from the contract balance using the `withdrawAll` function.
 
+
+---
+
+## Team Members
+This project was developed by the following team members:
+1. **Amanbayev Marlen** 
+2. **Nagumanov Azamat** 
+3. **Tuspekova Gulzhan** 
+
 ---
 
 ## Project Structure
