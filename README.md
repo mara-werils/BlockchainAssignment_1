@@ -64,6 +64,46 @@ To set up and run the project, follow these steps:
    - Deploy the contract and copy the contract address.
 ![alt text](image-2.png)
 
+   - The smart contract was deployed to the **Holesky Testnet** using **Hardhat**.
+   - Steps:
+     1. Configure the `hardhat.config.js` file to include the Holesky network.
+     2. Deploy the contract with the following command:
+        ```bash
+        npx hardhat run scripts/deploy.js --network holesky
+        ```
+     3. Copy the deployed contract address.
+        ```
+        Contract deployed to: 0xYourContractAddress
+        ```
+
+   - **Verification**:
+     1. Open [Holesky Etherscan](https://holesky.etherscan.io/).
+     2. Search for the contract address to view its details.
+     3. Verify that the contract balance updates after sending ETH.
+     
+   - **Testing**:
+     1. Sent ETH to the contract using MetaMask.
+        - Transaction was successful and verified on Holesky Etherscan.
+     2. Called the `getBalance` function via the "Read Contract" tab.
+        - The contract correctly displayed its balance.
+     3. Called the `withdrawAll` function via MetaMask.
+        - The owner successfully withdrew all funds, and the contract balance became `0`.
+
+   - **Screenshots**:
+     - **Deployment Output**: 
+     ![alt text](image-7.png)
+     - **Contract Address on Holesky Etherscan**: 
+     ![alt text](image-8.png)
+     - **Transaction Testing**:
+       - Sending ETH: 
+       ![alt text](image-9.png)
+       - Contract Balance: Screenshot of the updated balance on Etherscan.
+       ![alt text](image-10.png)
+       - Withdrawal: 
+       ![alt text](image-11.png)
+       ![alt text](image-12.png)
+       
+
 5. Configure the script:
    - Open `interact.js`.
    - Replace the placeholder `contractAddress` with the actual deployed contract address.
@@ -141,3 +181,4 @@ This project is licensed under the MIT License.
 - [Ganache](https://trufflesuite.com/ganache/) for local blockchain development.
 - [web3.js](https://web3js.readthedocs.io/) for enabling blockchain interactions.
 - [MetaMask](https://metamask.io/) for interacting with the blockchain.
+- [Holesky Etherscan](https://holesky.etherscan.io/) for verifying the deployment and transactions on a public testnet.

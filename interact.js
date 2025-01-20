@@ -2,7 +2,7 @@ const { Web3 } = require('web3');
 
 (async () => {
     const web3 = new Web3('http://127.0.0.1:7545');
-    const contractAddress = '0x31CAc0881A4e1926886cEe3004D6F8dAb1D95ae5';
+    const contractAddress = '0x3B1e1e5582D4141B11Ddc2D9dc6D5e72CF007DBE';
 
 
     const abi = [
