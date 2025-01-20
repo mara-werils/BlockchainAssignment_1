@@ -172,7 +172,7 @@ This project uses the following tools and libraries:
 ---
 
 License
-This project is licensed under the MIT License.
+This project is licensed under the MIT License(https://github.com/mara-werils/BlockchainAssignment_1/blob/main/LICENSE).
 
 ---
 
